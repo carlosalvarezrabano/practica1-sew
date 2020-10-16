@@ -2,6 +2,7 @@ body {
  font: 400 0.938em Tahoma, sans-serif; /*Familia sans-serif*/
  line-height: 1.8;
  color: #818181;
+ font-weight: bold;
  }
 h1 {
  background-color:#FF5733;
