@@ -1,5 +1,5 @@
 body {
- font: 400 15px Tahoma, sans-serif; /*Familia sans-serif*/
+ font: 400 0.938em Tahoma, sans-serif; /*Familia sans-serif*/
  line-height: 1.8;
  color: #818181;
  }
@@ -7,6 +7,25 @@ h1 {
  background-color:#FF5733;
  color: #fff;
  text-transform: uppercase;
- padding: 100px 25px;
+ padding: 6.25em 1.563em;
  text-align: center;
+ position: relative;
+ top: auto;
+ left: auto;
+ right: auto;
+ bottom: auto;
+ }
+h2,h3,h4 {
+ font-family: Helvetica;
+ color: blue;
+ padding: 4.688em 0.625em;
+ text-align:center;
+ }
+aside {
+ font-style: italic;
+ line-height: 1.5; 
+ }
+ li {
+ padding: 0.313em 0.313em;
+ margin: 0.313em;
  }
