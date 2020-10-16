@@ -28,4 +28,6 @@ aside {
  li {
  padding: 0.313em 0.313em;
  margin: 0.313em;
+ border: 0.063em solid black;
+ cursor: pointer;
  }
