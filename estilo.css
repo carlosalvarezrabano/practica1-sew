@@ -2,17 +2,18 @@ body {
  font: 400 0.938em Tahoma, sans-serif; /*Familia sans-serif*/
  line-height: 1.8;
  color: #818181;
- font-weight: bold;
  }
 h1 {
- background-color:#FF5733;
- color: #fff;
+ /*background-color:#FF5733;
+ color: #fff;*/
+ background-color:#ffffff;
+ color: #000000;
  text-transform: uppercase;
  padding: 6.25em 1.563em;
  text-align: center;
  }
 h2,h3,h4 {
- font-family: Helvetica;
+ font-family: Helvetica, cursive;
  color: blue;
  padding: 4.688em 0.625em;
  text-align:center;
