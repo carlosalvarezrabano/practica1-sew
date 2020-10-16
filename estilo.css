@@ -16,6 +16,7 @@ h2,h3,h4 {
  color: blue;
  padding: 4.688em 0.625em;
  text-align:center;
+ font-weight: bold;
  }
 aside {
  font-style: italic;
