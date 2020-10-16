@@ -1,7 +1,8 @@
 body {
  font: 400 0.938em Tahoma, sans-serif; /*Familia sans-serif*/
  line-height: 1.8;
- color: #818181;
+ color: #000000;
+ background-color: #ffffff;
  }
 h1 {
  /*background-color:#FF5733; problemas de contraste con el aChecker
