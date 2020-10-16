@@ -9,11 +9,6 @@ h1 {
  text-transform: uppercase;
  padding: 6.25em 1.563em;
  text-align: center;
- position: relative;
- top: auto;
- left: auto;
- right: auto;
- bottom: auto;
  }
 h2,h3,h4 {
  font-family: Helvetica;
