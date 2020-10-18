@@ -18,6 +18,10 @@ h1 {
 nav {
   overflow: hidden;
   background-color: #333;
+  float: left;
+  width: 100%;
+  padding: 0.938em;
+  text-align: center;
 }
 
 /* Style the topnav links */
@@ -31,15 +35,29 @@ nav a {
 }
 
 /* Change color on hover */
-a:hover {
+nav a:hover {
   background-color: #ddd;
   color: black;
 }
 
 /* Create three equal columns that floats next to each other */
-h2,h3,h4 {
+h2 {
   float: left;
   width: 100%;
+  padding: 0.938em;
+  text-align: center;
+}
+
+h3,h4 {
+  float: left;
+  width: 100%;
+  padding: 0.938em;
+  text-align: center;
+}
+
+img {
+  float: left;
+  width: 25%;
   padding: 0.938em;
   text-align: center;
 }
