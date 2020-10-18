@@ -4,7 +4,7 @@
  <!-- Datos que describen el documento -->
  <meta charset="UTF-8" />
  <meta name=author content="Carlos Álvarez Rábano" />
- <meta name=viewport content="width=device-width, initial-scale=1">
+ <meta name=viewport content="width=device-width, initial-scale=0.5">
  <meta name=description content="Página web de la película Blade Runner" />
  <title>Blade Runner</title>
  <link rel="stylesheet" type="text/css" href="estilo.css" />
@@ -18,42 +18,42 @@
 	<caption>Documentales</caption>
 	<thead>
 		<tr>
-			<th>Título</th>
-			<th>Año de estreno</th>
-			<th>Duración (en minutos)</th>
-			<th>Director (o coodirectores)</th>
+			<th id="titulo" scope="col">Título</th>
+			<th id="añoestreno" scope="col">Año de estreno</th>
+			<th id="duracion" scope="col">Duración (en minutos)</th>
+			<th id="director" scope="col">Director (o coodirectores)</th>
 		</tr>
 	</thead>
 	<tbody>
 		<tr>
-			<th>Blade Runner: Convention Reel</th>
-			<td>1982</td>
-			<td>13</td>
-			<td>Muffet Kaufman y Jeffrey B. Walker</td>
+			<th id="bladerunner" scope="row">Blade Runner: Convention Reel</th>
+			<td headers="bladerunner añoestreno">1982</td>
+			<td headers="bladerunner duracion">13</td>
+			<td headers="bladerunner director">Muffet Kaufman y Jeffrey B. Walker</td>
 		</tr>
 		<tr>
-			<th>On the Edge of Blade Runner</th>
-			<td>2000</td>
-			<td>55</td>
-			<td>Andrew Abbott</td>
+			<th id="ontheedge" scope="row">On the Edge of Blade Runner</th>
+			<td headers="ontheedge añoestreno">2000</td>
+			<td headers="ontheedge duracion">55</td>
+			<td headers="ontheedge director">Andrew Abbott</td>
 		</tr>
 		<tr>
-			<th>Future Shocks</th>
-			<td>2003</td>
-			<td>27</td>
-			<td>Desconocido</td>
+			<th id="futureshocks" scope="row">Future Shocks</th>
+			<td headers="futureshocks añoestreno">2003</td>
+			<td headers="futureshocks duracion">27</td>
+			<td headers="futureshocks director">Desconocido</td>
 		</tr>
 		<tr>
-			<th>Dangerous Days: Making Blade Runner</th>
-			<td>2007</td>
-			<td>213</td>
-			<td>Charles de Lauzirika</td>
+			<th id="dangerousdays" scope="row">Dangerous Days: Making Blade Runner</th>
+			<td headers="dangerousdays añoestreno">2007</td>
+			<td headers="dangerousdays duracion">213</td>
+			<td headers="dangerousdays director">Charles de Lauzirika</td>
 		</tr>
 		<tr>
-			<th>All Our Variant Futures: From Workprint to Final Cut</th>
-			<td>2007</td>
-			<td>29</td>
-			<td>Charles de Lauzirika</td>
+			<th id="allourvariants" scope="row">All Our Variant Futures: From Workprint to Final Cut</th>
+			<td headers="allourvariants añoestreno">2007</td>
+			<td headers="allourvariants duracion">29</td>
+			<td headers="allourvariants director">Charles de Lauzirika</td>
 		</tr>
 	</tbody>
  </table>
